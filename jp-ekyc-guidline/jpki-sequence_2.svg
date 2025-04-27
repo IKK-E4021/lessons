@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 620">
+  <!-- スタイル定義 -->
+  <defs>
+    <style>
+      .actor { fill: #FFFFFF; stroke: #333333; stroke-width: 2; }
+      .actor-text { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+      .lifeline { stroke: #333333; stroke-width: 1; stroke-dasharray: 5, 5; }
+      .message { fill: none; stroke: #333333; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .activation { fill: #E6F3FF; stroke: #0366D6; stroke-width: 1; }
+      .note { fill: #FFFFCC; stroke: #333333; stroke-width: 1; }
+      .note-text { font-family: Arial, sans-serif; font-size: 12px; }
+      .action { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; text-anchor: middle; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 16px; text-anchor: middle; }
+      .card { fill: #FFE6CC; stroke: #D79B00; stroke-width: 1; }
+      .card-text { font-family: Arial, sans-serif; font-size: 10px; }
+    </style>
+    
+    <!-- 矢印の定義 -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" class="title">公的個人認証（ワ方式）のシーケンス</text>
+  <text x="400" y="55" class="subtitle">マイナンバーカードの署名用電子証明書を用いた本人確認フロー</text>
+  
+  <!-- アクター（登場人物）の定義 -->
+  <!-- ユーザー -->
+  <rect x="50" y="80" width="100" height="40" rx="5" class="actor" />
+  <text x="100" y="105" class="actor-text">ユーザー</text>
+  <line x1="100" y1="120" x2="100" y2="580" class="lifeline" />
+  
+  <!-- スマートフォン/アプリ -->
+  <rect x="200" y="80" width="120" height="40" rx="5" class="actor" />
+  <text x="260" y="105" class="actor-text">スマートフォン</text>
+  <line x1="260" y1="120" x2="260" y2="580" class="lifeline" />
+  
+  <!-- マイナンバーカード -->
+  <rect x="370" y="80" width="130" height="40" rx="5" class="card" />
+  <text x="435" y="105" class="actor-text">マイナンバーカード</text>
+  <line x1="435" y1="120" x2="435" y2="580" class="lifeline" />
+  
+  <!-- サービスプロバイダー -->
+  <rect x="550" y="80" width="150" height="40" rx="5" class="actor" />
+  <text x="625" y="105" class="actor-text">サービスプロバイダー</text>
+  <line x1="625" y1="120" x2="625" y2="580" class="lifeline" />
+  
+  <!-- JPKI/認証局 -->
+  <rect x="700" y="80" width="80" height="40" rx="5" class="actor" />
+  <text x="740" y="105" class="actor-text">JPKI認証局</text>
+  <line x1="740" y1="120" x2="740" y2="580" class="lifeline" />
+  
+  <!-- アクティベーションバー -->
+  <rect x="255" y="150" width="10" height="400" class="activation" />
+  <rect x="430" y="220" width="10" height="150" class="activation" />
+  <rect x="620" y="150" width="10" height="400" class="activation" />
+  <rect x="735" y="400" width="10" height="50" class="activation" />
+  
+  <!-- シーケンスメッセージ -->
+  <!-- 1. 本人確認開始 -->
+  <line x1="100" y1="150" x2="255" y2="150" class="message" />
+  <text x="175" y="140" class="action">1. 本人確認開始</text>
+  
+  <!-- 2. 本人確認要求 -->
+  <line x1="265" y1="180" x2="620" y2="180" class="message" />
+  <text x="445" y="170" class="action">2. 本人確認（ワ方式）要求</text>
+  
+  <!-- 3. マイナンバーカード読み取り指示 -->
+  <line x1="620" y1="210" x2="265" y2="210" class="message" stroke-dasharray="5,5" />
+  <text x="445" y="200" class="action">3. マイナンバーカード読み取り指示</text>
+  
+  <!-- 4. 暗証番号入力要求 -->
+  <line x1="265" y1="240" x2="100" y2="240" class="message" stroke-dasharray="5,5" />
+  <text x="175" y="230" class="action">4. 署名用暗証番号入力要求</text>
+  
+  <!-- 5. 暗証番号入力 -->
+  <line x1="100" y1="270" x2="255" y2="270" class="message" />
+  <text x="175" y="260" class="action">5. 署名用暗証番号入力</text>
+  
+  <!-- 6. カードをスマホにかざす指示 -->
+  <line x1="265" y1="300" x2="100" y2="300" class="message" stroke-dasharray="5,5" />
+  <text x="175" y="290" class="action">6. カードをかざすよう指示</text>
+  
+  <!-- 7. カードをスマホにかざす -->
+  <line x1="100" y1="330" x2="255" y2="330" class="message" />
+  <text x="175" y="320" class="action">7. カードをスマホにかざす</text>
+  
+  <!-- 8. 暗証番号送信 -->
+  <line x1="265" y1="360" x2="430" y2="360" class="message" />
+  <text x="350" y="350" class="action">8. 暗証番号を送信</text>
+  
+  <!-- 注釈：署名用電子証明書 -->
+  <rect x="450" y="300" width="160" height="50" class="note" />
+  <text x="455" y="315" class="note-text">署名用電子証明書</text>
+  <text x="455" y="330" class="note-text">（氏名、住所、生年月日、</text>
+  <text x="455" y="345" class="note-text">性別を含む）</text>
+  
+  <!-- 9. 署名データ生成 -->
+  <line x1="430" y1="370" x2="265" y2="370" class="message" stroke-dasharray="5,5" />
+  <text x="350" y="385" class="action">9. 署名データ生成</text>
+  
+  <!-- 10. 署名データ送信 -->
+  <line x1="265" y1="410" x2="620" y2="410" class="message" />
+  <text x="445" y="400" class="action">10. 署名データ送信</text>
+  
+  <!-- 11. 失効確認 -->
+  <line x1="630" y1="430" x2="735" y2="430" class="message" />
+  <text x="680" y="420" class="action">11. 失効確認要求</text>
+  
+  <!-- 12. 失効確認結果 -->
+  <line x1="735" y1="450" x2="630" y2="450" class="message" stroke-dasharray="5,5" />
+  <text x="680" y="465" class="action">12. 失効確認結果</text>
+  
+  <!-- 13. 本人特定事項取得 -->
+  <rect x="640" y="470" width="140" height="50" class="note" />
+  <text x="645" y="485" class="note-text">13. 本人特定事項を取得</text>
+  <text x="645" y="500" class="note-text">（署名検証、証明書から</text>
+  <text x="645" y="515" class="note-text">基本4情報を抽出）</text>
+  
+  <!-- 14. 本人確認完了通知 -->
+  <line x1="620" y1="540" x2="265" y2="540" class="message" stroke-dasharray="5,5" />
+  <text x="445" y="530" class="action">14. 本人確認完了通知</text>
+  
+  <!-- 15. 完了通知 -->
+  <line x1="255" y1="570" x2="100" y2="570" class="message" stroke-dasharray="5,5" />
+  <text x="175" y="560" class="action">15. 本人確認完了</text>
+  
+  <!-- アクターの再表示（最下部） -->
+  <rect x="50" y="580" width="100" height="40" rx="5" class="actor" />
+  <text x="100" y="605" class="actor-text">ユーザー</text>
+  
+  <rect x="200" y="580" width="120" height="40" rx="5" class="actor" />
+  <text x="260" y="605" class="actor-text">スマートフォン</text>
+  
+  <rect x="370" y="580" width="130" height="40" rx="5" class="card" />
+  <text x="435" y="605" class="actor-text">マイナンバーカード</text>
+  
+  <rect x="550" y="580" width="150" height="40" rx="5" class="actor" />
+  <text x="625" y="605" class="actor-text">サービスプロバイダー</text>
+  
+  <rect x="700" y="580" width="80" height="40" rx="5" class="actor" />
+  <text x="740" y="605" class="actor-text">JPKI認証局</text>
+</svg>
