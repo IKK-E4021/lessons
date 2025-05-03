@@ -4,7 +4,7 @@
   <rect width="800" height="600" fill="#f8f9fa" />
   
   <!-- Title -->
-  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">3要素認証 (Three-factor Authentication)</text>
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">認証の3要素</text>
   
   <!-- Knowledge Factor -->
   <g transform="translate(180, 200)">
@@ -17,9 +17,9 @@
     <!-- Examples -->
     <g transform="translate(0, 60)">
       <rect x="-90" y="-15" width="180" height="70" rx="5" ry="5" fill="white" stroke="#4c6ef5" stroke-width="2" />
-      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• パスワード (Password)</text>
-      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• PIN (Personal ID Number)</text>
-      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 秘密の質問 (Security Q&amp;A)</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• パスワード</text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• PIN</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 秘密の質問</text>
     </g>
   </g>
   
@@ -34,9 +34,9 @@
     <!-- Examples -->
     <g transform="translate(0, 60)">
       <rect x="-100" y="-15" width="200" height="70" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
-      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• セキュリティーキー (Security key)</text>
-      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• スマートフォン (Smartphone)</text>
-      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• マイナンバーカード (My Number card)</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• セキュリティーキー</text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• スマートフォン</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• マイナンバーカード</text>
     </g>
   </g>
   
@@ -51,9 +51,9 @@
     <!-- Examples -->
     <g transform="translate(0, 60)">
       <rect x="-90" y="-15" width="180" height="70" rx="5" ry="5" fill="white" stroke="#40c057" stroke-width="2" />
-      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 指紋 (Fingerprint)</text>
-      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 顔認証 (Face recognition)</text>
-      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 虹彩スキャン (Iris scan)</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 指紋</text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 顔認証</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 虹彩スキャン</text>
     </g>
   </g>
   
