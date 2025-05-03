@@ -19,7 +19,7 @@
       <rect x="-90" y="-15" width="180" height="70" rx="5" ry="5" fill="white" stroke="#4c6ef5" stroke-width="2" />
       <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• パスワード</text>
       <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• PIN</text>
-      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 秘密の質問</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 秘密の質問 など</text>
     </g>
   </g>
   
@@ -36,7 +36,7 @@
       <rect x="-100" y="-15" width="200" height="70" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
       <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• セキュリティーキー</text>
       <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• スマートフォン</text>
-      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• マイナンバーカード</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• マイナンバーカード など</text>
     </g>
   </g>
   
@@ -52,28 +52,9 @@
     <g transform="translate(0, 60)">
       <rect x="-90" y="-15" width="180" height="70" rx="5" ry="5" fill="white" stroke="#40c057" stroke-width="2" />
       <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 指紋</text>
-      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 顔認証</text>
-      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 虹彩スキャン</text>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 顔</text>
+      <text x="0" y="40" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">• 虹彩 など</text>
     </g>
-  </g>
-  
-  <!-- Lines connecting circles to center -->
-  <g>
-    <!-- Line from Knowledge to Center -->
-    <path d="M200,180 L370,160" stroke="#4c6ef5" stroke-width="2" stroke-dasharray="5,5" />
-    
-    <!-- Line from Possession to Center -->
-    <path d="M380,320 L370,160" stroke="#fd7e14" stroke-width="2" stroke-dasharray="5,5" />
-    
-    <!-- Line from Biometric to Center -->
-    <path d="M600,180 L370,160" stroke="#40c057" stroke-width="2" stroke-dasharray="5,5" />
-  </g>
-  
-  <!-- Strong Authentication Label -->
-  <g transform="translate(370, 160)">
-    <circle cx="0" cy="0" r="45" fill="#333" opacity="0.1" />
-    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">強力な認証</text>
-    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">(Strong Authentication)</text>
   </g>
   
   <!-- Footer -->
