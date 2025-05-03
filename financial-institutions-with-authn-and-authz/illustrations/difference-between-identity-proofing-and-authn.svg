@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">身元確認と当人認証の違い</text>
+  
+  <!-- Left box: 身元確認 (Identity Proofing) -->
+  <rect x="50" y="80" width="320" height="280" rx="10" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+  <text x="210" y="110" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">身元確認</text>
+  <text x="210" y="135" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#666">(Identity Proofing)</text>
+  
+  <!-- Right box: 当人認証 (Authentication) -->
+  <rect x="430" y="80" width="320" height="280" rx="10" fill="#fff0f5" stroke="#db7093" stroke-width="2"/>
+  <text x="590" y="110" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">当人認証</text>
+  <text x="590" y="135" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#666">(Authentication)</text>
+  
+  <!-- Left box content: 身元確認 -->
+  <g transform="translate(70, 160)">
+    <!-- Icon for identity verification -->
+    <circle cx="40" cy="40" r="30" fill="#4682b4" opacity="0.2"/>
+    <path d="M40,20 C31,20 23,28 23,38 C23,48 31,56 40,56 C49,56 57,48 57,38 C57,28 49,20 40,20 Z M40,60 C25,60 10,67 10,75 L10,80 L70,80 L70,75 C70,67 55,60 40,60 Z" fill="#4682b4"/>
+    
+    <!-- Description points - reduced -->
+    <text x="85" y="25" font-family="sans-serif" font-size="14" fill="#333">「その人が誰であるか」を確認</text>
+    <text x="85" y="55" font-family="sans-serif" font-size="14" fill="#333">初回登録時に実施</text>
+    <text x="85" y="85" font-family="sans-serif" font-size="14" fill="#333">公的書類による証明</text>
+    <text x="85" y="115" font-family="sans-serif" font-size="14" fill="#333">例: パスポート、免許証</text>
+  </g>
+  
+  <!-- Right box content: 当人認証 -->
+  <g transform="translate(450, 160)">
+    <!-- Icon for authentication -->
+    <circle cx="40" cy="40" r="30" fill="#db7093" opacity="0.2"/>
+    <path d="M40,15 L55,30 L55,60 C55,65 50,70 45,70 L35,70 C30,70 25,65 25,60 L25,30 L40,15 Z M40,45 C42,45 45,43 45,40 C45,37 42,35 40,35 C38,35 35,37 35,40 C35,43 38,45 40,45 Z M40,55 L40,65" fill="none" stroke="#db7093" stroke-width="3"/>
+    
+    <!-- Description points - reduced -->
+    <text x="85" y="25" font-family="sans-serif" font-size="14" fill="#333">「アクセス権を持つ人」を確認</text>
+    <text x="85" y="55" font-family="sans-serif" font-size="14" fill="#333">アクセス時に毎回実施</text>
+    <text x="85" y="85" font-family="sans-serif" font-size="14" fill="#333">秘密情報による証明</text>
+    <text x="85" y="115" font-family="sans-serif" font-size="14" fill="#333">例: パスワード、生体認証</text>
+  </g>
+  
+  <!-- Process flow - moved down to avoid overlap -->
+  <g transform="translate(400, 410)">
+    <path d="M-200,0 L-130,0 M130,0 L200,0" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+    <path d="M-130,0 L130,0" stroke="#666" stroke-width="2"/>
+    <polygon points="-140,0 -120,-10 -120,10" fill="#666"/>
+    <polygon points="140,0 120,-10 120,10" fill="#666"/>
+    <text x="0" y="-10" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#666">登録 → 利用</text>
+  </g>
+</svg>
