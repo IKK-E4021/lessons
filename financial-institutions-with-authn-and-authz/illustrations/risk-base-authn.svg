@@ -27,6 +27,8 @@
   <g transform="translate(620, 160)">
     <circle cx="0" cy="0" r="100" fill="#fff8e1" stroke="#ffc107" stroke-width="2" />
     <text x="0" y="-25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff6f00">ネットワーク要素</text>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff6f00">Network Elements</text>
+    
     <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">• IPアドレス</text>
     <text x="0" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">• 地理的位置</text>
     <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">• VPN/プロキシ使用</text>
@@ -39,6 +41,8 @@
   <g transform="translate(180, 440)">
     <circle cx="0" cy="0" r="100" fill="#e1f5fe" stroke="#03a9f4" stroke-width="2" />
     <text x="0" y="-25" font-family="Arial, sans-serif", font-size="20" font-weight="bold" text-anchor="middle" fill="#01579b">行動要素</text>
+    <text x="0" y="5" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#01579b">Behavioral Elements</text>
+    
     <text x="0" y="35" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#0288d1">• ログイン時間帯</text>
     <text x="0" y="55" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#0288d1">• キーボード入力パターン</text>
     <text x="0" y="75" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#0288d1">• マウス動作</text>
@@ -51,6 +55,8 @@
   <g transform="translate(620, 440)">
     <circle cx="0" cy="0" r="100" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" />
     <text x="0" y="-25" font-family="Arial, sans-serif", font-size="20" font-weight="bold" text-anchor="middle" fill="#4a148c">トランザクション要素</text>
+    <text x="0" y="5" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#4a148c">Transaction Elements</text>
+    
     <text x="0" y="35" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引金額</text>
     <text x="0" y="55" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引頻度</text>
     <text x="0" y="75" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引先</text>
@@ -63,6 +69,8 @@
   <g transform="translate(400, 490)">
     <circle cx="0" cy="0" r="100" fill="#ffebee" stroke="#f44336" stroke-width="2" />
     <text x="0" y="-25" font-family="Arial, sans-serif", font-size="20" font-weight="bold" text-anchor="middle" fill="#b71c1c">コンテキスト要素</text>
+    <text x="0" y="5" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#b71c1c">Context Elements</text>
+    
     <text x="0" y="35" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#c62828">• 過去の行動パターン</text>
     <text x="0" y="55" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#c62828">• アカウント年齢</text>
     <text x="0" y="75" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#c62828">• 行動パターンの一致度</text>
