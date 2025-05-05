@@ -1,84 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
-  <!-- Background and Title -->
-  <rect width="800" height="600" fill="#f8f9fa" />
-  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">リスクベース認証で分析する要素</text>
-  
-  <!-- Main Center Circle -->
-  <circle cx="400" cy="300" r="120" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" />
-  <text x="400" y="300" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0d47a1">リスクスコア</text>
-  <text x="400" y="330" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0d47a1">Risk Score</text>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background and Title -->
+    <rect width="800" height="600" fill="#f8f9fa"/>
+    <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle"
+          fill="#333333">リスクベース認証で分析する要素
+    </text>
 
-  <!-- Device Elements - Top Left -->
-  <g transform="translate(180, 160)">
-    <circle cx="0" cy="0" r="100" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" />
-    <text x="0" y="-25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1b5e20">デバイス要素</text>
-    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">Device Elements</text>
-    
-    <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32">• デバイス指紋</text>
-    <text x="0" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32">• OSバージョン</text>
-    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32">• ブラウザタイプ</text>
-    
-    <!-- Line connecting to center -->
-    <line x1="70" y1="50" x2="160" y2="100" stroke="#4caf50" stroke-width="2" />
-  </g>
+    <!-- Main Center Circle -->
+    <circle cx="400" cy="290" r="80" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+    <text x="400" y="300" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle"
+          fill="#0d47a1">リスクスコア
+    </text>
+    <text x="400" y="330" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0d47a1">Risk
+        Score
+    </text>
 
-  <!-- Network Elements - Top Right -->
-  <g transform="translate(620, 160)">
-    <circle cx="0" cy="0" r="100" fill="#fff8e1" stroke="#ffc107" stroke-width="2" />
-    <text x="0" y="-25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff6f00">ネットワーク要素</text>
-    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff6f00">Network Elements</text>
-    
-    <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">• IPアドレス</text>
-    <text x="0" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">• 地理的位置</text>
-    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">• VPN/プロキシ使用</text>
-    
-    <!-- Line connecting to center -->
-    <line x1="-70" y1="50" x2="-160" y2="100" stroke="#ffc107" stroke-width="2" />
-  </g>
+    <!-- Device Elements - Top Left -->
+    <g transform="translate(180, 160)">
+        <circle cx="0" cy="0" r="100" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+        <text x="0" y="-25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle"
+              fill="#1b5e20">デバイス要素
+        </text>
+        <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32">•
+            デバイス指紋
+        </text>
+        <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32">•
+            OSバージョン
+        </text>
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e7d32">•
+            ブラウザタイプ
+        </text>
 
-  <!-- Behavioral Elements - Bottom Left -->
-  <g transform="translate(180, 440)">
-    <circle cx="0" cy="0" r="100" fill="#e1f5fe" stroke="#03a9f4" stroke-width="2" />
-    <text x="0" y="-25" font-family="Arial, sans-serif", font-size="20" font-weight="bold" text-anchor="middle" fill="#01579b">行動要素</text>
-    <text x="0" y="5" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#01579b">Behavioral Elements</text>
-    
-    <text x="0" y="35" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#0288d1">• ログイン時間帯</text>
-    <text x="0" y="55" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#0288d1">• キーボード入力パターン</text>
-    <text x="0" y="75" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#0288d1">• マウス動作</text>
-    
-    <!-- Line connecting to center -->
-    <line x1="70" y1="-50" x2="160" y2="-100" stroke="#03a9f4" stroke-width="2" />
-  </g>
+        <!-- Line connecting to center -->
+        <line x1="70" y1="50" x2="160" y2="100" stroke="#4caf50" stroke-width="2"/>
+    </g>
 
-  <!-- Transaction Elements - Bottom Right -->
-  <g transform="translate(620, 440)">
-    <circle cx="0" cy="0" r="100" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" />
-    <text x="0" y="-25" font-family="Arial, sans-serif", font-size="20" font-weight="bold" text-anchor="middle" fill="#4a148c">トランザクション要素</text>
-    <text x="0" y="5" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#4a148c">Transaction Elements</text>
-    
-    <text x="0" y="35" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引金額</text>
-    <text x="0" y="55" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引頻度</text>
-    <text x="0" y="75" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引先</text>
-    
-    <!-- Line connecting to center -->
-    <line x1="-70" y1="-50" x2="-160" y2="-100" stroke="#9c27b0" stroke-width="2" />
-  </g>
+    <!-- Network Elements - Top Right -->
+    <g transform="translate(620, 160)">
+        <circle cx="0" cy="0" r="100" fill="#fff8e1" stroke="#ffc107" stroke-width="2"/>
+        <text x="0" y="-25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle"
+              fill="#ff6f00">ネットワーク要素
+        </text>
+        <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">•
+            IPアドレス
+        </text>
+        <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">•
+            地理的位置
+        </text>
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ff8f00">•
+            VPN/プロキシ使用
+        </text>
 
-  <!-- Context Elements - Bottom -->
-  <g transform="translate(400, 490)">
-    <circle cx="0" cy="0" r="100" fill="#ffebee" stroke="#f44336" stroke-width="2" />
-    <text x="0" y="-25" font-family="Arial, sans-serif", font-size="20" font-weight="bold" text-anchor="middle" fill="#b71c1c">コンテキスト要素</text>
-    <text x="0" y="5" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#b71c1c">Context Elements</text>
-    
-    <text x="0" y="35" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#c62828">• 過去の行動パターン</text>
-    <text x="0" y="55" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#c62828">• アカウント年齢</text>
-    <text x="0" y="75" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" fill="#c62828">• 行動パターンの一致度</text>
-    
-    <!-- Line connecting to center -->
-    <line x1="0" y1="-75" x2="0" y2="-130" stroke="#f44336" stroke-width="2" />
-  </g>
+        <!-- Line connecting to center -->
+        <line x1="-70" y1="50" x2="-160" y2="100" stroke="#ffc107" stroke-width="2"/>
+    </g>
 
-  <!-- Footer Note -->
-  <text x="400" y="580" font-family="Arial, sans-serif", font-size="14" text-anchor="middle" font-style="italic" fill="#666666">リスク評価に基づき認証強度を動的に調整します</text>
+    <!-- Behavioral Elements - Bottom Left -->
+    <g transform="translate(180, 440)">
+        <circle cx="0" cy="0" r="100" fill="#e1f5fe" stroke="#03a9f4" stroke-width="2"/>
+        <text x="0" y="-25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle"
+              fill="#01579b">行動要素
+        </text>
+        <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0288d1">•
+            ログイン時間帯
+        </text>
+        <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0288d1">•
+            キーボード入力パターン
+        </text>
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0288d1">•
+            マウス動作
+        </text>
+
+        <!-- Line connecting to center -->
+        <line x1="70" y1="-50" x2="160" y2="-100" stroke="#03a9f4" stroke-width="2"/>
+    </g>
+
+    <!-- Transaction Elements - Bottom Right -->
+    <g transform="translate(620, 440)">
+        <circle cx="0" cy="0" r="100" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+        <text x="0" y="-25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle"
+              fill="#4a148c">トランザクション要素
+        </text>
+        <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7b1fa2">•
+            取引金額
+        </text>
+        <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7b1fa2">•
+            取引頻度
+        </text>
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#7b1fa2">• 取引先
+        </text>
+
+        <!-- Line connecting to center -->
+        <line x1="-70" y1="-50" x2="-160" y2="-100" stroke="#9c27b0" stroke-width="2"/>
+    </g>
+
+    <!-- Context Elements - Bottom -->
+    <g transform="translate(400, 490)">
+        <circle cx="0" cy="0" r="100" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+        <text x="0" y="-25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle"
+              fill="#b71c1c">コンテキスト要素
+        </text>
+        <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c62828">•
+            過去の行動パターン
+        </text>
+        <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c62828">•
+            アカウント年齢
+        </text>
+        <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c62828">•
+            行動パターンの一致度
+        </text>
+
+        <!-- Line connecting to center -->
+        <line x1="0" y1="-75" x2="0" y2="-130" stroke="#f44336" stroke-width="2"/>
+    </g>
 </svg>
